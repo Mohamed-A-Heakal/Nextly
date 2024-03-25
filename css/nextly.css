@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colors{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+}
+.header{
+    color: var(--main-color);
+    font-size: 12px;
+}
+.head{
+    max-width: 550px;
+}
+:root{
+    --main-color: rgb(94, 26, 251);
+    --secondary-color: rgba(90, 124, 236, 0.182);
+}
+/* start navbar */
+.navbar{
+    height: 86px;
+}
+.navbar-brand{
+    color: var(--main-color);
+}
+.navbar-brand img{
+    width: 40px;
+}
+.nav-item .nav-link{
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus{
+    color: var(--main-color);
+}
+.nav-item .nav-link:focus{
+    background-color: var(--secondary-color);
+}
+.navbar .navbar-toggler{
+    color: var(--main-color);
+    box-shadow: none;
+}
+.navbar .navbar-toggler:focus{
+    background-color: var(--secondary-color);
+    box-shadow: none;
+}
+.navbar .get-started .btn{
+    background-color: var(--main-color);
+    color: white;
+}
+.navbar .get-started .btn:hover{
+    color: white;
+}
+/* end navbar */
+/* start landing */
+.landing{
+    height: 100vh - 86px;
+}
+.landing h1{
+    font-size: 60px;
+}
+.websites span{
+    color: var(--main-color);
+}
+/* end landing */
+/* start testimonilas */
+.testimonilas .box{
+    padding: 25px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.testimonilas .box .box-top p span{
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 3px;
+}
+/* end testimonilas */
+/* start FAQ */
+.FAQ .ques{
+    max-width: 550px;
+}
+.FAQ .ques button{
+    height: 50px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+.FAQ .ques button:hover{
+    background-color: rgba(236, 236, 236, 0.919);
+}
+.FAQ .ques button svg{
+    color: var(--main-color);
+}
+.FAQ .for-free{
+    background-color: var(--main-color);
+    border-radius: 15px;
+    color: white;
+    max-width: 800px;
+}
+.FAQ .for-free button{
+    background-color: white;
+    color: var(--main-color);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end FAQ */
+/* start footer */
+.footer .row a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 20px;
+}
+.footer .row ul{
+    list-style: none;
+}
+.footer .row ul li{
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.footer .row ul li:hover{
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+}
+.footer .social svg{
+    cursor: pointer;
+}
+.footer .copy-right span{
+    color: var(--main-color);
+}
+/* end footer */
